@@ -22,9 +22,15 @@ const Footer = () => {
                   countries Vokalia and Consonantia, there live the blind texts.
                 </p>
                 <div className="icons">
-                  <FaTwitterSquare />
-                  <FaFacebook />
-                  <FaSquareInstagram />
+                  <FaTwitterSquare
+                    style={{ fontSize: "40px", backgroundColor: "white" }}
+                  />
+                  <FaFacebook
+                    style={{ fontSize: "40px", backgroundColor: "white" }}
+                  />
+                  <FaSquareInstagram
+                    style={{ fontSize: "40px", backgroundColor: "white" }}
+                  />
                 </div>
               </Grid>
               <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>

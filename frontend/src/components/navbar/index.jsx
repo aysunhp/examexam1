@@ -17,7 +17,7 @@ const Navbar = () => {
       <header
         style={{
           position: scroll,
-          backgroundColor: scroll == "fixed" ? "#404044" : "transparents",
+          backgroundColor: scroll == "fixed" ? "#404044" : null,
         }}
       >
         <div className="containerr">
