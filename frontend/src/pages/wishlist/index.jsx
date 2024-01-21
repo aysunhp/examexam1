@@ -15,7 +15,7 @@ import {
   addWishlist,
   deleteWishlist,
 } from "../../redux/slice/menuSlice";
-import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Wishlist = () => {
   const dispatch = useDispatch();
@@ -27,6 +27,11 @@ const Wishlist = () => {
   return (
     <>
       <div className="wishlist">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Wishlist</title>
+          <link rel="canonical" href="http://mysite.com/example" />
+        </Helmet>
         <div className="containerr">
           <div className="menu-sect-intro">
             <span>OUR MENU</span>

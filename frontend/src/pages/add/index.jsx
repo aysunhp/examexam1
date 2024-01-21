@@ -13,6 +13,7 @@ import * as Yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchData, deleteData, postData } from "../../redux/slice/menuSlice";
 import Button from "@mui/material/Button";
+import { Helmet } from "react-helmet";
 
 const SignupSchema = Yup.object().shape({
   name: Yup.string()
@@ -52,6 +53,11 @@ const Add = () => {
   };
   return (
     <div className="add">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Add</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <div className="containerr">
         <div className="add-sect-intro">
           <span>OUR MENU</span>
