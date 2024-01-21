@@ -1,0 +1,52 @@
+@import "./../../assets/style/varibles/varibles.scss";
+@import "./../../assets/style/mixins/mixin.scss";
+
+.detail {
+  width: 100%;
+  min-height: 100vh;
+  padding: 110px 0px;
+  .containerr {
+    width: 70%;
+    @include d-f(center, center);
+    flex-direction: column;
+    .detail-sect-intro {
+      @include d-f(center, center);
+      flex-direction: column;
+      gap: 10px;
+
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 70px;
+      }
+    }
+
+    .box {
+      width: 100%;
+      @include d-f(center, center);
+      flex-direction: column;
+      padding: 10px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 15px;
+      .img {
+        width: 100%;
+        height: 400px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .content {
+        margin-top: 20px;
+        padding: 10px;
+        @include d-f(center, center);
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+      }
+    }
+  }
+}

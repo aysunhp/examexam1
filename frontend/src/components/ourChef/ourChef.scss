@@ -1,0 +1,41 @@
+@import "./../../assets/style/varibles/varibles.scss";
+@import "./../../assets/style/mixins/mixin.scss";
+
+.ourChef-sect {
+  width: 100%;
+  min-height: 70vh;
+  .containerr {
+    width: 70%;
+    font-family: "Muli";
+    .chef-img {
+      width: 100%;
+      max-width: 600px;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .chef-content {
+      padding: 120px 50px;
+      span {
+        font-size: 16px;
+        color: $text-color;
+      }
+      h2 {
+        color: rgba(0, 0, 0, 0.795);
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+      }
+      p {
+        color: $text-color;
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 1.8;
+      }
+    }
+  }
+}

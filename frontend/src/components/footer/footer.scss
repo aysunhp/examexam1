@@ -1,0 +1,47 @@
+@import "./../../assets/style/varibles/varibles.scss";
+@import "./../../assets/style/mixins/mixin.scss";
+
+footer {
+  width: 100%;
+  background-color: #27272b;
+  padding: 150px;
+  .containerr {
+    width: 65%;
+    font-family: "Mulli";
+    .copyright {
+      margin-top: 60px;
+      text-align: center;
+    }
+    p {
+      color: $text-color;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    h2 {
+      color: $basic-color;
+      font-size: 24px;
+    }
+
+    ul {
+      li {
+        margin-bottom: 20px;
+        color: $text-color;
+        font-size: 18px;
+        &:hover {
+          color: $basic-color;
+        }
+      }
+    }
+
+    button {
+      padding: 16px;
+      border: 2px solid gray;
+      background-color: transparent;
+      span {
+        color: $text-color;
+      }
+      @include d-f(center, center);
+      gap: 10px;
+    }
+  }
+}

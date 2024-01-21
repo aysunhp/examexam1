@@ -1,0 +1,41 @@
+@import "./../../assets/style/varibles/varibles.scss";
+@import "./../../assets/style/mixins/mixin.scss";
+
+.hero {
+  @include d-f(center, center);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  .containerr {
+    width: 70%;
+    @include d-f(center, center);
+    flex-direction: column;
+    font-family: "Indie Flower", cursive;
+    gap: 15px;
+    h1 {
+      color: $basic-color;
+      font-size: 40px;
+      line-height: 60px;
+    }
+
+    button {
+      padding: 20px 60px;
+      border: 1px solid $basic-color;
+      color: $basic-color;
+      background-color: transparent;
+    }
+  }
+}
+
+.hero1 {
+  background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_2.jpg");
+}
+
+.hero2 {
+  background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_3.jpg");
+}
+
+.hero3 {
+  background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_1.jpg");
+}

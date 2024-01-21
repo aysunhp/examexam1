@@ -1,0 +1,80 @@
+@import "./../../assets/style/varibles/varibles.scss";
+@import "./../../assets/style/mixins/mixin.scss";
+
+.guests {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fafafa;
+  padding: 90px 0px;
+  .containerr {
+    width: 65%;
+    font-family: "Muli";
+    .guest-sect-intro {
+      @include d-f(center, center);
+      flex-direction: column;
+      span {
+        color: $text-color;
+        font-size: 13px;
+        text-transform: uppercase;
+        line-height: 30px;
+      }
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+
+        margin-bottom: 70px;
+      }
+    }
+
+    .guest-box {
+      padding: 20px;
+      width: 70%;
+      height: 100%;
+      .box {
+        border: 1px solid lightgray;
+        border-radius: 1%;
+        padding: 20px 30px 50px 30px;
+
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        position: relative;
+        .img {
+          width: 90px;
+          height: 90px;
+          border-radius: 50%;
+          position: absolute;
+          top: -12%;
+          left: calc(50% - 45px);
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        .stars {
+          margin-top: 50px;
+          @include d-f(center, center);
+          gap: 5px;
+          svg {
+            margin: 0px;
+          }
+          margin-bottom: 20px;
+        }
+        .content {
+          flex-direction: column;
+          margin-bottom: 40px;
+          font-size: 18px;
+          color: $text-color;
+          line-height: 1.8;
+          text-align: center;
+        }
+        .guest-from {
+          color: $text-color;
+          font-size: 16px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

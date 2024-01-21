@@ -1,0 +1,37 @@
+@import "./../../assets/style/varibles/varibles.scss";
+@import "./../../assets/style/mixins/mixin.scss";
+
+.add {
+  width: 100%;
+  min-height: 100vh;
+  background-color: lightblue;
+  .containerr {
+    width: 70%;
+    padding: 90px;
+    font-family: "Muli";
+    .add-sect-intro {
+      @include d-f(center, center);
+      flex-direction: column;
+      gap: 10px;
+      span {
+        color: $text-color;
+        font-size: 13px;
+        text-transform: uppercase;
+        line-height: 30px;
+      }
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 70px;
+      }
+    }
+  }
+
+  .table {
+    margin-top: 40px;
+    width: 100%;
+    .search {
+      margin-bottom: 20px;
+    }
+  }
+}

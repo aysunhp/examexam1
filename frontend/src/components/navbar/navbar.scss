@@ -1,0 +1,72 @@
+@import "./../../assets/style/varibles/varibles.scss";
+@import "./../../assets/style/mixins/mixin.scss";
+
+header {
+  width: 100%;
+  padding: 20px;
+  background-color: transparent;
+  position: absolute;
+  z-index: 3;
+  .containerr {
+    width: 65%;
+    @include d-f(space-between, center);
+    .left-sect {
+      span {
+        color: white;
+        padding: 10px 20px;
+        border: 1px solid white;
+        font-weight: 900;
+      }
+    }
+    ul {
+      @include d-f(flex-end, center);
+      gap: 20px;
+      li {
+        color: $basic-color;
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+
+    .mobile-menu-bar {
+      display: none !important;
+      @include d-f(center, center);
+      gap: 7px;
+      span {
+        color: white;
+      }
+    }
+  }
+
+  .mobile-nav {
+    width: 100;
+    margin-top: 6px;
+
+    ul {
+      li {
+        color: $basic-color;
+        margin-bottom: 15px;
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    background-color: #404044;
+
+    .containerr {
+      width: 90%;
+      ul {
+        display: none;
+      }
+      .mobile-menu-bar {
+        display: block !important;
+      }
+    }
+  }
+}
