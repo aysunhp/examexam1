@@ -24,7 +24,7 @@ const Guests = () => {
           <div className="guest-box">
             <Swiper
               modules={[Navigation, Pagination, Scrollbar, A11y]}
-              spaceBetween={0}
+              spaceBetween={20}
               slidesPerView={3}
               navigation
               pagination={{ clickable: true }}
@@ -134,6 +134,112 @@ const Guests = () => {
                   <div className="guest-from">Guest from Italy</div>
                 </div>
               </SwiperSlide>
+              <SwiperSlide>
+                <div className="box">
+                  <div className="img">
+                    <img
+                      src="https://preview.colorlib.com/theme/tasty/images/person_1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="stars">
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarHalfIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                  </div>
+                  <p className="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Error praesentium maxime nulla, sapiente vel dignissimos eum
+                    labore, qui ipsum, esse nesciunt odio?
+                  </p>
+
+                  <div className="guest-name">Dennis Green</div>
+                  <div className="guest-from">Guest from Italy</div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="box">
+                  <div className="img">
+                    <img
+                      src="https://preview.colorlib.com/theme/tasty/images/person_1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="stars">
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarHalfIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                  </div>
+                  <p className="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Error praesentium maxime nulla, sapiente vel dignissimos eum
+                    labore, qui ipsum, esse nesciunt odio?
+                  </p>
+
+                  <div className="guest-name">Dennis Green</div>
+                  <div className="guest-from">Guest from Italy</div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="box">
+                  <div className="img">
+                    <img
+                      src="https://preview.colorlib.com/theme/tasty/images/person_1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="stars">
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                    <StarHalfIcon
+                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
+                    />
+                  </div>
+                  <p className="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Error praesentium maxime nulla, sapiente vel dignissimos eum
+                    labore, qui ipsum, esse nesciunt odio?
+                  </p>
+
+                  <div className="guest-name">Dennis Green</div>
+                  <div className="guest-from">Guest from Italy</div>
+                </div>
+              </SwiperSlide>
+
               <SwiperSlide>
                 <div className="box">
                   <div className="img">

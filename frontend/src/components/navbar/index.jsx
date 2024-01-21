@@ -33,14 +33,15 @@ const Navbar = () => {
               {" "}
               <li>Add</li>
             </Link>
-            <Link to="/basket">
-              {" "}
-              <li>Basket</li>
-            </Link>
             <Link to="/wishlist">
               {" "}
               <li>Wishlist</li>
             </Link>
+            <Link to="/basket">
+              {" "}
+              <li>Basket</li>
+            </Link>
+
             <li>Menu</li>
             <li>Specials</li>
             <li>Reservation</li>
@@ -71,14 +72,15 @@ const Navbar = () => {
               {" "}
               <li>Add</li>
             </Link>
-            <Link to="/basket">
-              {" "}
-              <li>Basket</li>
-            </Link>
             <Link to="/wishlist">
               {" "}
               <li>Wishlist</li>
             </Link>
+            <Link to="/basket">
+              {" "}
+              <li>Basket</li>
+            </Link>
+
             <li>Menu</li>
             <li>Specials</li>
             <li>Reservation</li>

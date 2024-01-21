@@ -15,158 +15,81 @@ import "swiper/css/scrollbar";
 const Blog = () => {
   return (
     <>
-      <div className="guests">
+      <div className="blog">
         <div className="containerr">
           <div className="guest-sect-intro">
-            <span>Guests Says</span>
-            <h1>Our Satisfied Guests says</h1>
+            <span>BLOG</span>
+            <h1>Recent Blog</h1>
           </div>
-          <div className="guest-box">
+          <div className="boxs">
             <Swiper
               modules={[Navigation, Pagination, Scrollbar, A11y]}
-              spaceBetween={0}
+              spaceBetween={20}
               slidesPerView={3}
               navigation
               pagination={{ clickable: true }}
             >
               <SwiperSlide>
-                <div className="box">
+                <div className="blog-box">
                   <div className="img">
                     <img
-                      src="https://preview.colorlib.com/theme/tasty/images/person_1.jpg"
+                      src="https://preview.colorlib.com/theme/tasty/images/insta-4.jpg"
                       alt=""
                     />
                   </div>
-                  <div className="stars">
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarHalfIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                  </div>
+                  <div className="stars">July 7, 2018 Admin</div>
                   <p className="content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Error praesentium maxime nulla, sapiente vel dignissimos eum
-                    labore, qui ipsum, esse nesciunt odio?
                   </p>
 
-                  <div className="guest-name">Dennis Green</div>
-                  <div className="guest-from">Guest from Italy</div>
+                  <div className="guest-name">Read more</div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="box">
+                <div className="blog-box">
                   <div className="img">
                     <img
-                      src="https://preview.colorlib.com/theme/tasty/images/person_1.jpg"
+                      src="https://preview.colorlib.com/theme/tasty/images/insta-4.jpg"
                       alt=""
                     />
                   </div>
-                  <div className="stars">
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarHalfIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                  </div>
+                  <div className="stars">July 7, 2018 Admin</div>
                   <p className="content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Error praesentium maxime nulla, sapiente vel dignissimos eum
-                    labore, qui ipsum, esse nesciunt odio?
                   </p>
 
-                  <div className="guest-name">Dennis Green</div>
-                  <div className="guest-from">Guest from Italy</div>
+                  <div className="guest-name">Read more</div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="box">
+                <div className="blog-box">
                   <div className="img">
                     <img
-                      src="https://preview.colorlib.com/theme/tasty/images/person_1.jpg"
+                      src="https://preview.colorlib.com/theme/tasty/images/insta-4.jpg"
                       alt=""
                     />
                   </div>
-                  <div className="stars">
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarHalfIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                  </div>
+                  <div className="stars">July 7, 2018 Admin</div>
                   <p className="content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Error praesentium maxime nulla, sapiente vel dignissimos eum
-                    labore, qui ipsum, esse nesciunt odio?
                   </p>
-
-                  <div className="guest-name">Dennis Green</div>
-                  <div className="guest-from">Guest from Italy</div>
+                  <div className="guest-name">Read more</div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="box">
+                <div className="blog-box">
                   <div className="img">
                     <img
-                      src="https://preview.colorlib.com/theme/tasty/images/person_1.jpg"
+                      src="https://preview.colorlib.com/theme/tasty/images/insta-4.jpg"
                       alt=""
                     />
                   </div>
-                  <div className="stars">
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                    <StarHalfIcon
-                      style={{ color: "rgb(255,180,0)", fontSize: "17px" }}
-                    />
-                  </div>
+                  <div className="stars">July 7, 2018 Admin</div>
                   <p className="content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Error praesentium maxime nulla, sapiente vel dignissimos eum
-                    labore, qui ipsum, esse nesciunt odio?
                   </p>
 
-                  <div className="guest-name">Dennis Green</div>
-                  <div className="guest-from">Guest from Italy</div>
+                  <div className="guest-name">Read more</div>
                 </div>
               </SwiperSlide>
             </Swiper>
