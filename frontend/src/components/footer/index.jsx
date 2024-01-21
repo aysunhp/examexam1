@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="containerr">
           <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                 <h2>Tasty</h2>
                 <p>
                   Far far away, behind the word mountains, far from the
@@ -27,7 +27,7 @@ const Footer = () => {
                   <FaSquareInstagram />
                 </div>
               </Grid>
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                 <h2>Opening Hours</h2>
                 <ul>
                   <li>Monday: 08: - 22:00</li>
@@ -39,7 +39,7 @@ const Footer = () => {
                   <li>Sunday: 08: - 22:00</li>
                 </ul>
               </Grid>
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                 <h2>Contact Information</h2>
                 <ul>
                   <li>198 West 21th Street, Suite 721 New York NY 10016</li>
@@ -48,14 +48,15 @@ const Footer = () => {
                   <li>info@yoursite.com</li>
                 </ul>
               </Grid>
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={12} md={3} lg={3} xl={3}>
                 <h2>Newsletter</h2>
                 <p>
                   Far far away, behind the word mountains, far from the
                   countries.
                 </p>
                 <button>
-                  <span>Subscribe</span> <IoIosSend />
+                  <span>Subscribe</span>{" "}
+                  <IoIosSend style={{ color: "gray", fontSize: "24px" }} />
                 </button>
               </Grid>
             </Grid>

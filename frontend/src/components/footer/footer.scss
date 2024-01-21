@@ -4,9 +4,8 @@
 footer {
   width: 100%;
   background-color: #27272b;
-  padding: 150px;
+  padding: 100px;
   .containerr {
-    width: 65%;
     font-family: "Mulli";
     .copyright {
       margin-top: 60px;
@@ -20,6 +19,7 @@ footer {
     h2 {
       color: $basic-color;
       font-size: 24px;
+      margin-bottom: 30px;
     }
 
     ul {
@@ -34,14 +34,22 @@ footer {
     }
 
     button {
-      padding: 16px;
+      padding: 10px;
       border: 2px solid gray;
       background-color: transparent;
+      width: 100%;
+      margin-top: 10px;
       span {
         color: $text-color;
+        margin: 0px;
       }
-      @include d-f(center, center);
+      @include d-f(space-between, center);
+
       gap: 10px;
+
+      svg {
+        margin: 0px;
+      }
     }
   }
 }

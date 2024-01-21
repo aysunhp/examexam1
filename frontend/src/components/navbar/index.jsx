@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import "./navbar.scss";
 
@@ -6,9 +6,20 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [disp, setDisp] = useState(false);
+  const [scroll, setScroll] = useState("static");
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      window.scrollY >= 60 ? setScroll("fixed") : setScroll("absolute");
+    });
+  });
   return (
     <>
-      <header>
+      <header
+        style={{
+          position: scroll,
+          backgroundColor: scroll == "fixed" ? "#404044" : "transparents",
+        }}
+      >
         <div className="containerr">
           <div className="left-sect">
             <span>Tasty</span>

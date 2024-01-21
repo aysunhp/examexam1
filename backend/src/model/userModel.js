@@ -6,6 +6,7 @@ const userSchema = mongoose.Schema(
     price: String,
     type: String,
     ingredients: String,
+    image: String,
   },
   {
     collection: "bduexam",

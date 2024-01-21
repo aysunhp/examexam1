@@ -20,6 +20,7 @@ const SignupSchema = Yup.object().shape({
     .max(50, "Too Long!")
     .required("Required"),
   ingredients: Yup.string().min(2, "Too Short!").required("Required"),
+  image: Yup.string().min(5, "Too Short!").required("Required"),
   type: Yup.string().min(2, "Too Short!").required("Required"),
   price: Yup.number("must be number")
     .positive("must be positive")
@@ -64,6 +65,7 @@ const Add = () => {
               ingredients: "",
               type: "",
               price: "",
+              image: "",
             }}
             validationSchema={SignupSchema}
             onSubmit={(values, { resetForm }) => {
@@ -112,7 +114,20 @@ const Add = () => {
                 />
                 {errors.type && touched.type ? <div>{errors.type}</div> : null}
                 <br />
-
+                <Field
+                  name="image"
+                  style={{
+                    width: "100%",
+                    padding: "10px",
+                    borderRadius: "15px",
+                    border: "none",
+                    marginBottom: "15px",
+                  }}
+                />
+                {errors.image && touched.image ? (
+                  <div>{errors.image}</div>
+                ) : null}
+                <br />
                 <Field
                   name="price"
                   style={{
